@@ -1,0 +1,5 @@
+<nav>
+  {% for item in site.navigation %}
+    <a href="{{ item.url }}" {% if page.url === item.url %} aria-current="page" {% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>
