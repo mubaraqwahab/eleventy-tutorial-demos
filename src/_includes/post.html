@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<article>
+  <h1>{{ title }}</h1>
+  <p>Published on <time>{{ page.date | readableDate }}</time></p>
+  <section>
+    {{ content | safe }}
+  </section>
+</article>
