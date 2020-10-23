@@ -8,8 +8,6 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.setFrontMatterParsingOptions({ excerpt: true });
-
   return {
     htmlTemplateEngine: "njk",
     dir: {
